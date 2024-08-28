@@ -1,0 +1,26 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+}
+
+#chartdiv {
+	width: 100%;
+	height: 85vh;
+}
+
+.country-flag {
+	height: 20px;
+	width: 25px;
+}
+
+.news-card {
+	max-height: 50vh;
+	min-height: fit-content;
+}
+
+.news-card-body {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	overflow-y: auto;
+}

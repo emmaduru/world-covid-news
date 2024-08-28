@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "py-da-eng"
+version = "0.1.0"
+description = ""
+authors = ["emmanuella"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+flask = "^3.0.3"
+newsapi-python = "^0.2.7"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
